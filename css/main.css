@@ -1,0 +1,163 @@
+
+.banner{width:100%;position:relative;}
+.banner img{width:100%;position:relative;}
+
+.logo{position:absolute;left:6%;z-index:3;animation-name:logo;animation-duration:8s;animation-iteration-count:infinite;width:35%;}
+@keyframes logo{
+    0%{top:50px;}
+    25%{top:80px;}
+    50%{top:60px;}
+    75%{top:70px;}
+    100%{top:50px;}
+}
+
+.content_box{width:100%;margin:0 auto;background:#ffffeb;}
+.content{max-width:1200px;width:96%;margin:0 auto;margin-bottom:60px;}
+
+.title-01{color:#75bdcf;max-width:690px;width:90%;margin:35px auto 50px auto;background:url(../images/icon-01.svg) no-repeat 96% top;
+    background-size:120px;font-size:45px;text-align:center;letter-spacing:2;padding:40px 0 10px 0;}
+
+.journey{max-width:1000px;width:96%;margin:40px auto;}
+.journey ul{display:flex;justify-content: space-between;flex-wrap: wrap;}
+.journey ul li{width:45%;text-align: center;color: #4a4a4a;margin:0 0 40px 0;}
+.journey ul li h1{font-size:45px;margin:15px 0;font-weight:500;}
+.journey ul li p{font-size:24px;margin:5px 0;}
+.journey ul li a{position:relative;transition: transform 0.5s;width:460px;height:274px;}
+.journey ul li a img{}
+.journey ul li a .info-box {
+    position: absolute;width:100%;left:-0px;z-index:2;top:-258px;width:460px;height:274px;
+    color:#fff;
+    background:url(../images/journey-hover.png) no-repeat;text-align:center;opacity:0;
+     transition:transform .5s;padding-top:100px;}
+.journey ul li a:hover .info-box {opacity:1;position: absolute;color: #4a4a4a;font-size:30px;line-height:45px;transform: scale(1.03);}
+
+.Introduction-01{font-size:16px;max-width:1400px;width:96%;margin:100px auto;position: relative;overflow: hidden;}
+.Introduction-01 .i-text01{background:url(../images/Introduction-bg01.png) no-repeat left 20px;width:476px;height:492px;padding:70px 55px 90px 55px;
+    z-index:3;margin:30px 0;position: absolute;}
+.Introduction-01 h1{font-size:34px;color:#75bdcf;margin:45px 0 25px;}
+.Introduction-01 p{font-size:16px;line-height:30px;}    
+.Introduction-01 .icon-01{position:absolute;z-index:3;width:110px;top:0;right:30px;}
+
+.Introduction-01 .i-text01:hover{background:url(../images/Introduction-bg01-hover.png) no-repeat left 20px;}
+.Introduction-01 :hover h1{color:#fff;}    
+.Introduction-01 .i-text01:hover .icon-01{animation-name:icon01;animation-duration:6s;
+    animation-iteration-count:1;animation-direction:alternate;}
+@keyframes icon01{
+0%{top:10px;}
+15%{top:-12px;}
+35%{top:5px;}
+65%{top:-6px;}
+100%{top:0px;}}    
+
+.Introduction-01 .img-01{width:70%;position: relative;z-index:1;float: right;}
+.Introduction-01 .img-01 img{width:100%;}
+
+.Introduction-02{font-size:16px;max-width:1400px;width:96%;margin:100px auto;position: relative;overflow: hidden;}
+.Introduction-02 .i-text02{background:url(../images/Introduction-bg02.png) no-repeat left 40px;width:463px;height:470px;padding:70px 55px 90px 55px;
+    z-index:3;margin:60px 0;position: absolute;right:0;}
+.Introduction-02 h1{font-size:34px;color:#75bdcf;margin:45px 0 25px;line-height:42px; }
+.Introduction-02 p{font-size:16px;line-height:30px;}    
+.Introduction-02 .icon-02{position:absolute;z-index:3;width:110px;top:-45px;right:30px;}
+
+.Introduction-02 .i-text02:hover{background:url(../images/Introduction-bg02-hover.png) no-repeat left 40px;}
+.Introduction-02 :hover h1{color:#fff;}    
+.Introduction-02 .i-text02:hover .icon-02{animation-name:icon02;animation-duration:6s;
+    animation-iteration-count:1;animation-direction:alternate;}
+@keyframes icon02{
+0%{top:-30px;}
+15%{top:-42px;}
+35%{top:-30px;}
+65%{top:-46px;}
+100%{top:-30px;}}    
+
+.Introduction-02 .img-02{width:70%;position: relative;z-index:1;float:left;}
+.Introduction-02 .img-02 img{width:100%;}
+
+.Introduction-03{font-size:16px;max-width:1400px;width:96%;margin:100px auto;position: relative;overflow: hidden;}
+.Introduction-03 .i-text03{background:url(../images/Introduction-bg03.png) no-repeat left 20px;width:475px;height:586px;padding:50px 55px 90px 55px;
+    z-index:3;margin:0px 0;position: absolute;}
+.Introduction-03 h1{font-size:34px;color:#75bdcf;margin:45px 0 25px;}
+.Introduction-03 p{font-size:16px;line-height:30px;}    
+.Introduction-03 .icon-03{position:absolute;z-index:3;width:130px;top:0;right:30px;}
+
+.Introduction-03 .i-text03:hover{background:url(../images/Introduction-bg03-hover.png) no-repeat left 20px;}
+.Introduction-03 :hover h1{color:#fff;}    
+.Introduction-03 .i-text03:hover .icon-03{animation-name:icon03;animation-duration:6s;
+    animation-iteration-count:1;animation-direction:alternate;}
+@keyframes icon03{
+0%{top:10px;}
+15%{top:-5px;}
+35%{top:5px;}
+65%{top:-6px;}
+100%{top:0px;}}    
+
+.Introduction-03 .img-03{width:70%;position: relative;z-index:1;float: right;}
+.Introduction-03 .img-03 img{width:100%;}
+
+.Introduction-04{font-size:16px;max-width:1400px;width:96%;margin:100px auto;position: relative;overflow: hidden;}
+.Introduction-04 .i-text04{background:url(../images/Introduction-bg04.png) no-repeat left 0px;width:481px;height:380px;padding:20px 55px 90px 55px;
+    z-index:3;margin:110px 0;position: absolute;right:0;}
+.Introduction-04 h1{font-size:34px;color:#75bdcf;margin:45px 0 25px;line-height:42px; }
+.Introduction-04 p{font-size:16px;line-height:30px;}    
+.Introduction-04 .icon-04{position:absolute;z-index:3;width:110px;top:-40px;right:30px;}
+
+.Introduction-04 .i-text04:hover{background:url(../images/Introduction-bg04-hover.png) no-repeat left 0px;}
+.Introduction-04 :hover h1{color:#fff;}    
+.Introduction-04 .i-text04:hover .icon-04{animation-name:icon04;animation-duration:6s;
+    animation-iteration-count:1;animation-direction:alternate;}
+@keyframes icon04{
+0%{top:-30px;}
+15%{top:-42px;}
+35%{top:-30px;}
+65%{top:-46px;}
+100%{top:-30px;}}    
+
+.Introduction-04 .img-04{width:70%;position: relative;z-index:1;float:left;}
+.Introduction-04 .img-04 img{width:100%;}
+
+.Project{background:url(../images/bg.png) no-repeat center center;width:1030px;height:500px;margin:80px auto;}
+.Project ul{display:flex;justify-content:center;text-align:center;padding-top:120px;}
+.Project ul li{}
+.Project ul li h1{font-size:110px;color:#f5bac0;}
+.Project ul li h1 samp{font-size:36px;color:#4a4a4a;font-weight: 400;}
+.Project ul li p{font-size:24px;line-height:29px;margin:25px 0;}
+
+.p-w28{width:25%;}
+.p-w5{width:5%;margin:35px 0 0 0;}
+
+.title-02{font-size:36px;color:#f5bac0;text-align:center;}
+
+.accordion {
+    cursor: pointer;padding:30px 4% 10px 4%;
+    width: 100%;border: none;text-align: left;outline: none;font-size:20px;transition: 0.4s;}
+.accordion:after {
+    content: '\002B';color: #fcd36c;font-size:25px; 
+    font-weight: bold;float: right;margin-left:0px;}
+.active:after {content: "\2212";}
+.panel {padding:0px 4%;background-color: white;width:90%;line-height:30px;margin-bottom:15px; 
+    max-height: 0;overflow: hidden;transition: max-height 0.2s ease-out;}
+.panel ol{padding-left:20px;list-style-type: disc;}
+.panel ol li{border-bottom:none; }    
+
+.qa{max-width:1200px;width:96%;margin:80px auto;border-top:1px solid #f5bac0;}
+.qa li{border-bottom:1px solid #f5bac0;}
+
+.toTop{width:72px;margin:0px auto 0 auto;display: block;position: relative;top:36px;z-index:5;}
+
+footer{width:100%;overflow:hidden;position: relative;}
+.footer{max-width:1920px;background:url(../images/footer.svg) no-repeat;width:100%;background-size: cover;}
+.footer_text{max-width:850px;width:96%;margin:0 auto 0 auto;padding:120px 0 60px 0;display: flex;font-size:15px; }
+.footer_text ul li{color: #fff;line-height:30px;margin:0;}
+.footer_text ul li samp{color: #fff;width:83px;display: inline-block;}
+.footer_text ul li p{color: #fff;font-size:13px; }
+.footer_w60{width:60%;}
+.footer_w40{width:40%;}
+.fb img{width:21px;margin-right:15px;}
+.ig img{width:20px;position:relative;top:1px;}
+@media (max-width:999px){
+
+}
+
+@media (max-width: 769px){
+
+}
